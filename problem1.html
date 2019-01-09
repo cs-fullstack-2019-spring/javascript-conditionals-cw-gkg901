@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PROBLEM1</title>
+</head>
+<body>
+<script>
+
+    var card1 = prompt("enter a number  from 1 to 10")
+    var card2 = prompt("enter a number  from 1 to 10")
+    var card3 = prompt("enter a number  from 1 to 10")
+    card1 = parseInt(card1)
+    card2 = parseInt(card2)
+    card3 = parseInt(card3)
+    if (card1 + card2 + card3 >21) {console.log("BUST")}
+    if (card1 + card2 + card3 ===21) {console.log("BLACKJACK")}
+    if (card1 + card2 + card3 <21) {console.log("THE TOTAL IS " + (card1 + card2 + card3 ))}
+
+</script>
+</body>
+</html>
